@@ -11,9 +11,9 @@ import math
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 
-numero_01 = int(input("Digite um numero: "))
-numero_02 = int(input("Digite outro numero: "))
-print(numero_01*numero_02)
+# numero_01 = int(input("Digite um numero: "))
+# numero_02 = int(input("Digite outro numero: "))
+# print(numero_01*numero_02)
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
@@ -39,7 +39,13 @@ print(numero_01*numero_02)
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
 
-# data = input("Digite uma data:")
+data_do_usuario = input("Digite uma data no formato dd/mm/aaaa: ")
+data_separada = data_do_usuario.split("/")
+
+dia = data_separada[0]
+mes = data_separada[1]
+ano = data_separada[2]
+print(f"A data digita é: {dia}/{mes}/{ano}")
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
