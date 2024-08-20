@@ -70,11 +70,16 @@ import math
 
 # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
 
-string_do_usuario = input("Digite um texto: ")
-string_maiuscula = string_do_usuario.upper()
-print(string_maiuscula)
+# string_do_usuario = input("Digite um texto: ")
+# string_maiuscula = string_do_usuario.upper()
+# print(string_maiuscula)
 
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+
+string_do_usuario = input("Digite um texto: ")
+string_maiuscula = string_do_usuario.lower()
+print(string_maiuscula)
+
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
 
