@@ -16,7 +16,17 @@ import math
 # print(numero_01*numero_02)
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+
+# numero_01 = int(input("Digite um numero: "))
+# numero_02 = int(input("Digite outro numero: "))
+# resultado = numero_01 // numero_02
+# print(resultado)
+
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+
+numero_do_usuario = int(input("Digite um número: "))
+resultado = numero_do_usuario ** 2
+print(resultado)
 
 # #### Números de Ponto Flutuante (`float`)
 
@@ -39,13 +49,13 @@ import math
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
 
-data_do_usuario = input("Digite uma data no formato dd/mm/aaaa: ")
-data_separada = data_do_usuario.split("/")
+# data_do_usuario = input("Digite uma data no formato dd/mm/aaaa: ")
+# data_separada = data_do_usuario.split("/")
 
-dia = data_separada[0]
-mes = data_separada[1]
-ano = data_separada[2]
-print(f"A data digita é: {dia}/{mes}/{ano}")
+# dia = data_separada[0]
+# mes = data_separada[1]
+# ano = data_separada[2]
+# print(f"A data digita é: {dia}/{mes}/{ano}")
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
