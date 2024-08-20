@@ -19,13 +19,13 @@ import math
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 
-try:
-    numero_01 = int(input("Digite um numero: "))
-    numero_02 = int(input("Digite outro numero: "))
-    resultado = numero_01 // numero_02
-    print(resultado)
-except:
-    print("Não é possível realizar a divisão.")
+# try:
+#     numero_01 = int(input("Digite um numero: "))
+#     numero_02 = int(input("Digite outro numero: "))
+#     resultado = numero_01 // numero_02
+#     print(resultado)
+# except:
+#     print("Não é possível realizar a divisão.")
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
@@ -85,7 +85,8 @@ except:
 
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 
-
+frase = input("Digite uma frase: ")
+print(frase.strip())
 
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
 
