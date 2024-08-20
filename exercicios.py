@@ -10,6 +10,11 @@ import math
 # print(resultado)
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+
+numero_01 = int(input("Digite um numero: "))
+numero_02 = int(input("Digite outro numero: "))
+print(numero_01*numero_02)
+
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
@@ -20,10 +25,12 @@ import math
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
-raio_do_circulo = float(input("Digite o raio:"))
-area_do_circulo = math.pi * raio_do_circulo ** 2
-area_do_circulo_formatada = "{:.2f}".format(area_do_circulo)
-print(area_do_circulo_formatada)
+
+# raio_do_circulo = float(input("Digite o raio:"))
+# area_do_circulo = math.pi * raio_do_circulo ** 2
+# area_do_circulo_formatada = "{:.2f}".format(area_do_circulo)
+# area_do_circulo_formata2 = print(f"{area do circulo:.2f}") é a mesma coisa da linha de cima
+# print(area_do_circulo_formatada)
 
 # #### Strings (`str`)
 
@@ -31,6 +38,9 @@ print(area_do_circulo_formatada)
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+
+# data = input("Digite uma data:")
+
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
 # #### Booleanos (`bool`)
